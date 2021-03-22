@@ -7,6 +7,15 @@
     <title>Hackers Poulette Form</title>
 </head>
 <body>
+
+<?php
+
+isset($_GET)
+    {
+        $_GET
+    };
+
+?>
     
 </body>
 </html>
