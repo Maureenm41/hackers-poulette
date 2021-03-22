@@ -5,13 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="assets/hackers-poulette-logo.png" />
+    <link rel="stylesheet" href="styles.scss">
     <title>Hackers Poulette Form</title>
 </head>
 <body>
     <header>
-        <h1>Hackers Poulette</h1>
+        <!--<h1>Hackers Poulette</h1>-->
         <img src="assets/hackers-poulette-logo.png" alt="Hackers Poulette logo">
     </header>
+
+
+    <form>
+
+       <label>Name</label><br>
+       <input type="text" id="fname" name="fname" value=""><br>
+       <label>Lastname</label><br>
+       <input type="text" id="lname" name="lname" value=""><br>
+       <label>Gender : </label><br>
+       <input type="radio">
+       <label>Male</label><br>
+       <input type="radio">
+       <label>Female</label><br>
+       <input type="radio">
+       <label>Other</label><br>
+       <label>Email adress</label><br>
+       <input type="text" id="email" name="email" value=""><br>
+       <label>Country</label><br>
+       <label>Subject</label><br>
+       <label>Message</label><br>
+
+    </form>
     
     <?php include 'index.php';?>
 </body>
