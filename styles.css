@@ -1,4 +1,10 @@
 body {
-  background-color: #0d8187;
+  background-color: #FFF;
+}
+
+@font-face {
+  font-family: 'MyWebFont';
+  src: url("WebFont.eot");
+  src: url("WebFont.eot?iefix") format("eot"), url("WebFont.woff") format("woff"), url("WebFont.ttf") format("truetype"), url("WebFont.svg#webfont") format("svg");
 }
 /*# sourceMappingURL=styles.css.map */

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="assets/hackers-poulette-logo.png" />
     <link rel="stylesheet" href="styles.scss">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css.map">
     <title>Hackers Poulette Form</title>
 </head>
 <body>
@@ -14,27 +16,39 @@
         <img src="assets/hackers-poulette-logo.png" alt="Hackers Poulette logo">
     </header>
 
+    <div> 
+        <h2>Contact Form</h2>
 
-    <form>
+        <form>
 
-       <label>Name</label><br>
-       <input type="text" id="fname" name="fname" value=""><br>
-       <label>Lastname</label><br>
-       <input type="text" id="lname" name="lname" value=""><br>
-       <label>Gender : </label><br>
-       <input type="radio">
-       <label>Male</label><br>
-       <input type="radio">
-       <label>Female</label><br>
-       <input type="radio">
-       <label>Other</label><br>
-       <label>Email adress</label><br>
-       <input type="text" id="email" name="email" value=""><br>
-       <label>Country</label><br>
-       <label>Subject</label><br>
-       <label>Message</label><br>
+            <label>Name</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <br>
+            <label>Lastname</label><br>
+            <input type="text" id="lname" name="lname" value=""><br>
+            <br>
+            <label>Gender : </label><br>
+            <input type="radio">
+            <label>Male</label><br>
+            <input type="radio">
+            <label>Female</label><br>
+            <input type="radio">
+            <label>Other</label><br>
+            <br>
+            <label>Email adress</label><br>
+            <input type="text" id="email" name="email" value=""><br>
+            <br>
+            <label>Country</label><br>
+            <br>
+            <label>Subject</label><br>
+            <br>
+            <label>Message</label><br>
+            <input type="text" id="message" name="message" value=""><br>
+            <br>
+            <input type="submit" value="Submit">
 
-    </form>
+        </form>
+    </div>
     
     <?php include 'index.php';?>
 </body>
