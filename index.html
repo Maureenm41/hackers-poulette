@@ -19,13 +19,13 @@
     <div class="formulaire"> 
         <h2>Contact Form</h2>
 
-        <form action="" method="GET">
+        <form  method="POST" action="index.php">
 
             <label>Name</label><br>
-            <input type="text" class="inputText" id="fname" name="fname" value=""><br>
+            <input type="text" class="inputText" id="fname" name="fname" value="" required pattern="^[A-Za-z '-]+$" maxlength="20"><br>
             <br>
             <label>Lastname</label><br>
-            <input type="text" class="inputText" id="lname" name="lname" value=""><br>
+            <input type="text" class="inputText" id="lname" name="lname" value="" required pattern="^[A-Za-z '-]+$" maxlength="20"><br>
             <br>
             <label>Gender : </label><br>
             <input type="radio">
@@ -36,7 +36,7 @@
             <label>Other</label><br>
             <br>
             <label>Email adress</label><br>
-            <input type="email" class="inputText" id="email" name="email" value=""><br>
+            <input type="email" class="inputText" id="email" name="email" value="" required pattern="^[A-Za-z]+@{1}[A-Za-z]+\.{1}[A-Za-z]{2,}$"><br>
             <br>
             <!--country selector-->
             <label>Country</label><br>
@@ -293,10 +293,11 @@
             <br>
             <!--subject selector-->
             <label>Subject</label><br>
-            <select>
-                <option></option>
-                <option></option>
-                <option></option>
+            <select value="other">
+                <option>Other</option>
+                <option>Guarantee</option>
+                <option>Functionality</option>
+                <option>Device</option>
             </select>
             <!--subject selector stop here-->
             <br>
