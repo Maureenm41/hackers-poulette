@@ -31,12 +31,20 @@
             <input type="text" class="inputText" id="lname" name="lname" value="" required pattern="^[A-Za-z '-]+$" maxlength="20"><br>
             <br>
             <label>Gender : </label><br>
-            <input type="radio" required>
-            <label>Male</label><br>
-            <input type="radio" required>
-            <label>Female</label><br>
-            <input type="radio" required>
-            <label>Other</label><br>
+            <label>
+                <input type="radio" name="gender" value="male" required>
+                    Male
+            </label><br>
+
+            <label>
+                <input type="radio" name="gender" value="female">
+                Female
+            </label><br>
+
+            <label>
+                <input type="radio" name="gender" value="other">
+                Other
+            </label><br>
             <br>
             <label>Email adress</label><br>
             <input type="email" class="inputText" id="email" name="email" value="" required pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"><br>
