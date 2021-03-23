@@ -1,6 +1,6 @@
 /*@import "../node_modules/bootstrap/scss/bootstrap";*/
 
-@import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css";
+/*@import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css";*/
 
 /*$body-color :#303030  ;*/
 
@@ -8,7 +8,10 @@ body
 {
     background-color:#303030;
 	color:#000 /* #0d8187*/;
+	
 }
+
+.bg-color { color : #303030;}
 
 
 
@@ -28,11 +31,11 @@ header
 
 }
 
-.logo
+img
 {
 	float: left;
-	width: auto;
-	height: auto;
+	width: 25%;
+	height: 25%;
 }
 
 .formulaire
@@ -43,6 +46,7 @@ header
 	border: #0d8187 5px solid;
 	padding-right: 80px;
 	padding-top: 0.5px;
+	box-shadow: 15px 15px 10px 10px rgba(0, 0, 0, 0.247);
 }
 
 .inputText
