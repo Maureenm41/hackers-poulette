@@ -40,7 +40,7 @@
             <input type="text" class="inputText" id="lname" name="lname" value="" required pattern="^[A-Za-z '-]+$" maxlength="20"><br>
             <br>
             <label>Gender : </label><br>
-            <input type="radio">
+            <input type="radio" required>
             <label>Male</label><br>
             <input type="radio">
             <label>Female</label><br>
