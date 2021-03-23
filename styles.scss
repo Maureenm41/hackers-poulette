@@ -1,7 +1,7 @@
 body
 {
     background-color:#FFF;
-	color: #0d8187;
+	color:#303030 /* #0d8187*/;
 }
 
 
@@ -13,9 +13,25 @@ body
 	     url('WebFont.woff') format('woff'),
 	     url('WebFont.ttf') format('truetype'),
 	     url('WebFont.svg#webfont') format('svg');
-}
+}*/
 
 header
 {
+	width: 100vh;
+	height: 50vh;
+	margin-top: 0vh;
+	margin: auto;
 
+}
+
+.logo
+{
+	width: 25px;
+	height: 10px;
+}
+
+.formulaire
+{
+	width: 100vh;
+	height: 50vh;
 }
