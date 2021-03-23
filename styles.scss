@@ -1,7 +1,7 @@
 body
 {
-    background-color:#FFF;
-	color:#303030 /* #0d8187*/;
+    background-color:#303030;
+	color:#000 /* #0d8187*/;
 }
 
 
@@ -33,5 +33,9 @@ header
 .formulaire
 {
 	width: 100vh;
-	height: 50vh;
+	height: 100%;
+	background-color:#FFF ;
+	border: #0d8187 5px solid;
+	padding-left: 20px;
+	padding-top: 0.5px;
 }
