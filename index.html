@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="assets/hackers-poulette-logo.png" />
-    <link rel="stylesheet" href="styles.scss">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="styles.css.map">
+    <link rel="stylesheet" href="styles.scss">
     <title>Hackers Poulette Form</title>
 </head>
 <body>
@@ -16,7 +16,7 @@
         <img src="assets/hackers-poulette-logo.png" alt="Hackers Poulette logo">
     </header>
 
-    <div> 
+    <div class="formulaire"> 
         <h2>Contact Form</h2>
 
         <form>
@@ -38,6 +38,7 @@
             <label>Email adress</label><br>
             <input type="text" id="email" name="email" value=""><br>
             <br>
+            <!--country selector-->
             <label>Country</label><br>
             <select id="country" name="country">
                 <option value="Afganistan">Afghanistan</option>
@@ -287,14 +288,17 @@
                 <option value="Zambia">Zambia</option>
                 <option value="Zimbabwe">Zimbabwe</option>
              </select>
+             <!--country selector stop here-->
             <br>
             <br>
+            <!--subject selector-->
             <label>Subject</label><br>
             <select>
                 <option></option>
                 <option></option>
                 <option></option>
             </select>
+            <!--subject selector stop here-->
             <br>
             <label>Message</label><br>
             <input type="text" id="message" name="message" value=""><br>
