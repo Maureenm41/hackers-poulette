@@ -25,6 +25,8 @@ header {
 
 img {
   float: left;
+  position: -webkit-sticky;
+  position: sticky;
   width: 25%;
   height: 25%;
 }
