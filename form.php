@@ -10,9 +10,9 @@
 
 <?php
 
-isset($_GET)
+if (!isset($_POST['submit']))
     {
-        $_GET
+        echo "error , you need to send the form!";
     };
 
 ?>
