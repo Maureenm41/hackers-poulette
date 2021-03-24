@@ -2,15 +2,12 @@
 
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css";
 
-$button-color :#0d8187 ; 
+$font-stack :'Bellota', cursive ;
 body
 {
     background-color:#303030;
 	color:#000 /* #0d8187*/;
-	font-family: 'Bellota', cursive;
-
-	
-	
+	font-family: 'Bellota', cursive;	
 }
 
 .bg-color { color : #303030;}
