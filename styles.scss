@@ -19,10 +19,11 @@ body
 	height: 100px;
 }*/
 
-.is-primary .is-light
-{
-	background-color: #0d8187;
-}
+$is-primary: #0d8187 ;
+$is-light:#0d8187 ;
+
+
+
 @font-face{ 
 	font-family: 'MyWebFont';
 	src: url('assets/fonts/web WebFont.eot');
