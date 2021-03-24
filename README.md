@@ -6,4 +6,4 @@ The company Hackers Poulette ™ sells Raspberry Pi accessory kits to build your
 
 ### mock-up
 
-![alt text](assets\mock-up.png)
+![mock up](assets\mock-up.png)
