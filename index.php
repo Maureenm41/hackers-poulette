@@ -92,6 +92,17 @@ if (!empty($errors)) {
     $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
  }
 
+ // Subject of confirmation email.
+$conf_subject = 'Your recent enquiry';
+
+// Who should the confirmation email be from?
+$conf_sender = 'Organisation Name <no-reply@myemail.co.uk>';
+
+$msg = $_POST['Name'] . ",\n\nThank you for your recent enquiry. A member of our 
+team will respond to your message as soon as possible.";
+
+mail( $_POST['Email'], $conf_subject, $msg, 'From: ' . $conf_sender );
+
 ?>
     <img id="logo formLogo" src="assets/hackers-poulette-logo.png" alt="Hackers Poulette logo">
 
