@@ -87,9 +87,12 @@ if (!empty($_POST)) {
    }
 }
 
-?>
+if (!empty($errors)) {
+    $allErrors = join('<br/>', $errors);
+    $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
+ }
 
-<?php include 'form.php';?>
+?>
     <img id="logo" src="assets/hackers-poulette-logo.png" alt="Hackers Poulette logo">
 
 
