@@ -17,7 +17,7 @@
         <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item">
-            <img id="logo" src="assets/hackers-poulette-logo.png" alt="Hackers Poulette logo">
+            <img id="logo navLogo" src="assets/hackers-poulette-logo.png" alt="Hackers Poulette logo">
           </a>
       
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -93,7 +93,7 @@ if (!empty($errors)) {
  }
 
 ?>
-    <img id="logo" src="assets/hackers-poulette-logo.png" alt="Hackers Poulette logo">
+    <img id="logo formLogo" src="assets/hackers-poulette-logo.png" alt="Hackers Poulette logo">
 
 
     <div class="formulaire d-flex justify-content-center"> 

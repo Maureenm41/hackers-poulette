@@ -12,10 +12,10 @@ body
 
 .bg-color { color : #303030;}
 
-.navbar
+/*.navbar
 {
 	height: 100px;
-}
+}*/
 
 .is-primary .is-light
 {
@@ -31,12 +31,16 @@ body
 }
 
 
-img
+.navLogo
 {
-	float: left;
-	position: sticky;
 	width: 25%;
 	height: 25%;
+}
+
+.formLogo
+{
+	width: 100%;
+	height: 100%;
 }
 
 .formulaire
