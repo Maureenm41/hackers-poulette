@@ -13,6 +13,50 @@
     <title>Hackers Poulette Form</title>
 </head>
 <body>
+        <!--nav bar-->
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            <img id="logo" src="assets/hackers-poulette-logo.png" alt="Hackers Poulette logo">
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item">
+              Home
+            </a>
+      
+            <a class="navbar-item">
+                Accessory kits
+            </a>
+
+            <a class="navbar-item">
+                Contact us
+              </a>
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-primary">
+                  <strong>Sign up</strong>
+                </a>
+                <a class="button is-light">
+                  Log in
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--end nav bar-->
 
 <?php
 
