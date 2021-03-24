@@ -94,7 +94,7 @@ if (!empty($_POST)) {
 
 
     <div class="formulaire d-flex justify-content-center"> 
-        <h2>Contact Form</h2>
+        <!--<h2>Contact Form</h2>-->
 
         <form  method="POST" action="index.php">
 
