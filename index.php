@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles.css.map">
     <link rel="stylesheet" href="styles.scss">
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <title>Hackers Poulette Form</title>
 </head>
 <body>
@@ -325,6 +326,15 @@
             <textarea id="msg" name="user_message"></textarea><br>
             <br>
             <input type="submit" value="Submit">
+            <div class="modal">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                  <!-- Any other Bulma elements you want -->
+                  <p>Thank you for your message !</p>
+                  <p>We will contact you as soon as possible </p>
+                </div>
+                <button class="modal-close is-large" aria-label="close"></button>
+              </div>
 
         </form>
     </div>
