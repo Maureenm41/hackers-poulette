@@ -96,7 +96,7 @@ if (!empty($errors)) {
     <img id="logo formLogo" src="assets/hackers-poulette-logo.png" alt="Hackers Poulette logo">
 
 
-    <div class="formulaire d-flex justify-content-center"> 
+    <div class="formulaire is-half"> 
         <!--<h2>Contact Form</h2>-->
 
         <form  method="POST" action="index.php">
