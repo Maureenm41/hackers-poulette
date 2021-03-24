@@ -114,7 +114,7 @@
     <img id="logo formLogo" src="assets/hackers-poulette-logo.png" alt="Hackers Poulette logo">
 
 
-    <div class="formulaire is-half"> 
+    <div class="formulaire columns is-mobile is-multiline is-centered"> 
         <!--<h2>Contact Form</h2>-->
 
         <form  method="POST" action="index.php">
