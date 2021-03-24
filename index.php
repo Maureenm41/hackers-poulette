@@ -61,27 +61,27 @@
 
 <?php
 
-if (isset($_POST['submit']))
-{
+  if (isset($_POST['submit']))
+  {
     #TRAITEMENT DE TON FORMULAIRE VALIDE
    $alerte = "Votre message a bien été envoyé";
 
    #TRAITEMENT DE TON FORMULAIRE NON VALIDE
    $alerte = "Echec de l'envoi";
-}
+  }
 
-if (isset($alerte)) { echo $alerte; }
+  if (isset($alerte)) { echo $alerte; }
 
     $errors = [];
 
-if (!empty($_POST)) {
-   $name = $_POST['name'];
-   $email = $_POST['email'];
-   $message = $_POST['message'];
+  if (!empty($_POST)) {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
   
-   if (empty($name)) {
+    if (empty($name)) {
        $errors[] = 'Name is empty';
-   }
+    }
 
    if (empty($email)) {
        $errors[] = 'Email is empty';
@@ -92,12 +92,12 @@ if (!empty($_POST)) {
    if (empty($message)) {
        $errors[] = 'Message is empty';
    }
-}
+    }
 
-if (!empty($errors)) {
+  if (!empty($errors)) {
     $allErrors = join('<br/>', $errors);
     $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
- }
+  }
 
   // Subject of confirmation email.
   $conf_subject = 'Your recent enquiry';
