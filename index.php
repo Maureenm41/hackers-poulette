@@ -23,10 +23,10 @@
 ?>
 
 <?php include 'form.php';?>
+    <img id="logo" src="assets/hackers-poulette-logo.png" alt="Hackers Poulette logo">
     <header>
-        <!--<h1>Hackers Poulette</h1>-->
-        <img id="logo" src="assets/hackers-poulette-logo.png" alt="Hackers Poulette logo">
-    </header>
+        <h1>Hackers Poulette</h1>
+    </header> 
 
     <div class="formulaire d-flex justify-content-center"> 
         <h2>Contact Form</h2>
