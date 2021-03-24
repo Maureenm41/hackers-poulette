@@ -61,10 +61,14 @@
 
 <?php
 
-/*if (!isset($_POST['submit']))
-    {
-        echo "error , you need to send the form!";
-    };*/
+if (isset($_POST['submit']))
+{
+    #TRAITEMENT DE TON FORMULAIRE VALIDE
+   $alerte = "Votre message a bien été envoyé";
+
+   #TRAITEMENT DE TON FORMULAIRE NON VALIDE
+   $alerte = "Echec de l'envoi";
+}
 
     $errors = [];
 
